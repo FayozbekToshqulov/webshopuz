@@ -1,0 +1,82 @@
+/* SkeletonComp.css */
+.skeleton-card {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  background-color: #fff;
+}
+
+.skeleton-image {
+  width: 270px;
+  height: 400px;
+}
+
+.skeleton-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+
+.skeleton-title,
+.skeleton-text,
+.skeleton-price {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.skeleton-title {
+  height: 20px;
+}
+
+.skeleton-text {
+  height: 16px;
+}
+
+.skeleton-price {
+  height: 20px;
+}
+
+@media screen and (max-width:640px) {
+
+  .skeleton-card {
+    width: 125px;
+    display: flex;
+    height: 450px;
+    background-color: #fff;
+  }
+
+  .skeleton-image {
+    width: 125%;
+    height: 400px;
+  }
+
+  .skeleton-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .skeleton-title,
+  .skeleton-text,
+  .skeleton-price {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .skeleton-title {
+    height: 20px;
+  }
+
+  .skeleton-text {
+    height: 16px;
+  }
+
+  .skeleton-price {
+    height: 20px;
+  }
+}
